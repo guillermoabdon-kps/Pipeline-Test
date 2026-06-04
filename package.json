@@ -1,0 +1,14 @@
+{
+  "name": "dev-pipeline-demo",
+  "version": "1.0.0",
+  "description": "Minimal Node.js app to demo a build + Docker + ACR push pipeline",
+  "main": "server.js",
+  "scripts": {
+    "build": "node --check server.js",
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "license": "MIT"
+}
